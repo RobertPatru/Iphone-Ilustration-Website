@@ -1,0 +1,166 @@
+.background {
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.iphone-shape {
+    margin-top: 100px;
+}
+
+.text-area {
+    height: 500px;
+    margin: 0;
+}
+
+.text-area p {
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    
+}
+
+.text-area h1 {
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    /* background */
+    .background {
+        overflow-x: hidden;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .cilinder-1 {
+        width: 300px;
+    height: 350px;
+    }
+
+    .cilinder-2 {
+        width: 300px;
+    height: 350px;
+    }
+
+    /* Iphone Shape */
+    .iphone-shape {
+        width: 250px;
+        height: 550px;
+    }
+
+    .iphone-breton {
+        width: 150px;
+        height: 25px;
+        left: calc(50% - 75px);
+    }
+
+    /* Header */
+    .header {
+        height: 75px;
+        display: flex;
+    }
+
+    .header i, 
+    .header img,
+    .header div {
+        margin-top: 25px;
+
+        width: 35px;
+        height: 35px;
+    }
+    .header img{
+        margin-right: 5px;
+        margin-top: 20px;
+    }
+    .header i {
+        margin-top: 35px;
+    }
+    .header .dots {
+        margin-left: 100px;
+    }
+
+    .fa-chevron-left {
+        font-size: 16px;
+        margin-left: 15px;
+        width: 5px;
+    }
+    
+    .name-status {
+        font-size: 14px;
+    }
+    .name-status p {
+        width: 95px;
+    }
+
+    .name-status small {
+        display: inline-block;
+        width: 90px;
+    }
+
+    /* Middle content (conversation) */
+    .middle-content > * {
+        font-size: 10px;
+    }
+
+    /* Dog Images */
+    .img-container img {
+        height: 50px;
+        width: 50px;
+        margin-right: 5px;
+    }
+
+    .padding {
+        width: 80%;
+        margin: 4px;
+    }
+
+    /* Long chats on left with price */
+    .padding:nth-child(7),
+    .padding:nth-child(8) {
+        padding: 3px 5px;
+    }
+
+    /* The circles inside messages on left */
+    .padding:nth-child(7) i,
+    .padding:nth-child(8) i {
+        font-size: 20px;
+        opacity: 0.5; 
+    }
+
+    /* The price */
+    .padding:nth-child(7) h4,
+    .padding:nth-child(8) h4 {
+        font-size: 15px;
+        padding-left: 60px;
+    }
+
+    /* Bottom part */
+    .input {
+        height: 45px;
+        margin-top: 25px;
+    }
+
+    /* TEXT AREA */
+    .text-area {
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        margin: 100px 0;
+    }
+    
+    .text-area p {
+        font-size: 14px;
+        line-height: 1.4;
+        text-align: center;
+        
+    }
+    
+    .text-area h1 {
+        text-align: center;
+    }
+}
